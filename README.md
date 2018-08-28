@@ -1,6 +1,6 @@
-# Python Installation & Django Workflow
+### Python Installation & Django Workflow
 
-### Installing Python
+#### Installing Python
 
 Installing Python on Windows is easy. Just find the Windows Executable Installer on the [Python downloads page](https://www.python.org/downloads/release/python-352/), run it, and you're good to go. When the Installation Wizard pops up, be sure to check the `Add python to PATH` option, and at the end of install `allow python to bypass PATH limit`. This will do any manual work involved in adding Python to your PATH automatically.
 
@@ -8,7 +8,7 @@ Mac users should install [Homebrew](http://brew.sh), and then run `brew install 
 
 If you're on Linux, you're probably already running Python 3.4.x+. Users of Ubuntu 12.10+ already have Python 3.4.x: Just use `python3` and `pip3` instead of `python` and `pip`. Users of other distributions presumably know what they're doing.
 
-### Installing Virtualenv
+#### Installing Virtualenv
 
 You _can_ install Django globally. But you shouldn't. It's better to maintain the environments of projects that rely on particular versions of packages separately. In Python-land, we use [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/) for this, and our package manager is called [pip](https://pypi.python.org/pypi/pip).
 
@@ -98,7 +98,7 @@ To exit your virtualenv sandbox and return to your normal system environment, ju
 
 _Deactivating a virtualenv._
 
-### Workflow
+#### Workflow
 
 Everyone settles on their own workflows, but the following cycle is common in Django.
 
