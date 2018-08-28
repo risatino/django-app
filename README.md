@@ -18,15 +18,11 @@ We'll be using Django 1.10.x, which requires Python 3.4.x+. Since most of you wi
 
 First, run: `pip --version`. This will print the version of pip you have, and the version of Python it's using.
 
-![pip --version output.](../Images/0-pip-version.png)
-
 _pip --version output._
 
 If you see `Python 3.4.3` or higher to the right, keep using just use the `pip` command. 
 
 If you see `Python 2.7`, as I do, try again with `pip3`.
-
-![pip3 --version output.](../Images/0-pip3-version.png)
 
 _pip3 --version output._
 
@@ -63,11 +59,7 @@ There are two steps.
 
 2.  Run: `virtualenv -p $PYTHON_3 $ENVIRONMENT_NAME`, where $PYTHON_3 is the path to your Python 3 installation.
 
-![Output of which python3.](../Images/0-which-output.png)
-
 _Output of which python3._
-
-![Creating a virtualenv with Python 3.](../Images/0-virtualenv-py3.png)
 
 _Creating a virtualenv with Python 3._
 
@@ -88,8 +80,6 @@ or
 
     source env/Scripts/activate
 
-![Sourcing a virtualenv.](../Images/0-sourcing-env.png)
-
 _Sourcing a virtualenv._
 
 You'll notice an `(env)` marker pop up to the left of your command prompt. This simply indicates that you're running in a virtualenv, not your normal system environment.
@@ -105,8 +95,6 @@ This installs Django 1.10.1, but _only_ in your sandboxed virtual environment. O
 ##### Deactivating
 
 To exit your virtualenv sandbox and return to your normal system environment, just use `deactivate`.
-
-![Deactivating a virtualenv.](../Images/0-deactivating.png)
 
 _Deactivating a virtualenv._
 
